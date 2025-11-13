@@ -10,6 +10,6 @@ const dbConnect = async () =? {
       console.log(err);
   }
 }
-
-
 module.exports = dbConnect;
+
+//이렇게 하고 app.js파일에다가 const dbConnect = require("./config/dbConnect"); 를 입력까지 해줘야돼.
